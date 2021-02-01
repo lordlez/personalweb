@@ -1,5 +1,14 @@
+body{
+    background-color: #F5F5F5;
+    margin: auto;
+}
+
 .container-nav{
-    text-align: center;
+    display: flex;
+    background-color: #36bed9;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
 }
 
 #about-me{
@@ -7,6 +16,8 @@
     margin-left: 35px;
     margin-left: 35px;
     font-size: 40px;
+    color: white;
+    text-shadow: black 2px 1px;
 }
 
 #curriculum-vitae{
@@ -14,6 +25,8 @@
     margin-right: 35px;
     margin-left: 35px;
     font-size: 40px;
+    color: white;
+    text-shadow: black 2px 1px;
 }
 
 section{
@@ -23,10 +36,42 @@ section{
 .flex-container{
     display: flex;
     flex-direction: row;
+    margin-top: 150px;
 }
 
 .flex-container div p{
     margin-left: 25px;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.photo{
+    margin: 0px 15px 0px 15px;
+
+}
+
+.text{
+    width: 500px;
+    text-align: justify;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: #36bed9;
+
+}
+
+.social-media img{
+    width: 40px;
+    margin:  0px 10px 0px 10px;
+}
+
+
+footer{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
 }
