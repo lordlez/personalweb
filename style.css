@@ -1,3 +1,32 @@
-.titulo{
-    background-color:red;
+.container-nav{
+    text-align: center;
+}
+
+#about-me{
+    text-decoration: none;
+    margin-left: 35px;
+    margin-left: 35px;
+    font-size: 40px;
+}
+
+#curriculum-vitae{
+    text-decoration: none;
+    margin-right: 35px;
+    margin-left: 35px;
+    font-size: 40px;
+}
+
+section{
+    margin-top: 60px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container div p{
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
