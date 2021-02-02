@@ -83,6 +83,12 @@ footer{
 
 /*Estilos para la pestaña cv*/
 
+.flex-cv{
+    display: flex;
+    flex-direction: row;
+}
+
+
 .title{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 250px;
@@ -91,12 +97,28 @@ footer{
 .text-cv{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 130px;
-    border: solid black;
+    width: 700px;
+    text-align: justify; 
 }
 
 .text-items{
     margin-left: 180px;
 }
+
+
+.skills{
+    margin: 0px 0px 0px 50px;
+}
+
+.skills h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.skills img{
+    margin: 0px 0px 50px 100px;
+}
+
 
 
 /*Estilos compartidos en ambas pestañas*/
