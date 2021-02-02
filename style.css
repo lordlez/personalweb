@@ -66,9 +66,12 @@ section{
 
 .social-media img{
     width: 40px;
-    margin:  0px 10px 0px 10px;
+
 }
 
+.social-media a{
+    margin:  0px 10px 0px 10px;
+}
 
 footer{
     text-align: center;
