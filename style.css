@@ -3,6 +3,8 @@ body{
     margin: auto;
 }
 
+ /*Estilos para la pestaña index*/
+
 .container-nav{
     display: flex;
     background-color: #36bed9;
@@ -78,3 +80,23 @@ footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
 }
+
+/*Estilos para la pestaña cv*/
+
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 250px;
+}
+
+.text-cv{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 130px;
+    border: solid black;
+}
+
+.text-items{
+    margin-left: 180px;
+}
+
+
+/*Estilos compartidos en ambas pestañas*/
