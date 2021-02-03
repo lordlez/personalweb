@@ -44,7 +44,7 @@ section{
 .flex-container div p{
     margin-left: 25px;
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 .photo{
@@ -61,18 +61,26 @@ section{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 200px;
     background-color: #36bed9;
+    margin-top: 190px;
 
 }
 
 .social-media img{
+    border-radius: 20px;
     width: 40px;
-
+    align-items: center;
+    transition-property: background;
+    transition-duration: 650ms;    
 }
+
 
 .social-media a{
     margin:  0px 10px 0px 10px;
+}
+
+.social-media img:hover{
+    background: black;
 }
 
 footer{
@@ -86,6 +94,7 @@ footer{
 .flex-cv{
     display: flex;
     flex-direction: row;
+
 }
 
 
@@ -108,6 +117,7 @@ footer{
 
 .skills{
     margin: 0px 0px 0px 50px;
+
 }
 
 .skills h2{
@@ -117,6 +127,12 @@ footer{
 
 .skills img{
     margin: 0px 0px 50px 100px;
+}
+
+.hr-section{
+    height: 2px;
+    background-image: -webkit-linear-gradient(left,transparent,#36bed9,transparent);
+    border: 0;
 }
 
 
