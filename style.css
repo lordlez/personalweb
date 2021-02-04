@@ -13,25 +13,43 @@ body{
     justify-content: center;
 }
 
-#about-me{
+.my-name{
     text-decoration: none;
-    margin-left: 35px;
-    margin-left: 35px;
     font-size: 40px;
     color: white;
-    text-shadow: black 2px 1px;
+    margin-right: 250px;
 }
 
-#curriculum-vitae{
+.pestaña{
+    border: solid white;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50px;
+    transition-property: background;
+    transition-duration: 650ms; 
+}
+
+.pestaña:hover{
+    background: black;
+}
+
+.about-me{
+    text-decoration: none;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 40px;
+    color: white;
+}
+
+.curriculum-vitae{
     text-decoration: none;
     margin-right: 35px;
     margin-left: 35px;
     font-size: 40px;
     color: white;
-    text-shadow: black 2px 1px;
 }
 
-section{
+.section{
     margin-top: 60px;
 }
 
@@ -83,7 +101,7 @@ section{
     background: black;
 }
 
-footer{
+.footer{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
