@@ -85,7 +85,13 @@ body{
     margin: 0px 15px 0px 15px;
 }
 
-.social-media{
+.footer{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.footer div{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -94,7 +100,7 @@ body{
 
 }
 
-.social-media img{
+.footer div img{
     border-radius: 20px;
     width: 40px;
     align-items: center;
@@ -102,20 +108,15 @@ body{
     transition-duration: 650ms;    
 }
 
-
-.social-media a{
-    margin:  0px 10px 0px 10px;
-}
-
-.social-media img:hover{
+.footer div img:hover{
     background: black;
 }
 
-.footer{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
+.footer div a{
+    margin:  0px 10px 0px 10px;
 }
+
+
 
 /*Estilos para la pestaña cv*/
 
@@ -167,6 +168,8 @@ body{
 
 /*Estilos compartidos en ambas pestañas*/
 
+
+/* Responsive design*/
 @media screen and (max-width: 800px){
     .header{
         width: 100%;
@@ -180,6 +183,15 @@ body{
     .flex-container p{
 
         width: 100%;
+    }
+
+    .footer{
+        width: 60%;
+    }
+
+    .footer div{
+        display: flex;
+        flex-direction: column;
     }
     
     body{
