@@ -4,6 +4,16 @@ body{
 }
 
  /*Estilos para la pestaña index*/
+.container{
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.section{
+    width: 100%;
+    margin: 0 auto;
+}
 
 .container-nav{
     display: flex;
@@ -11,13 +21,14 @@ body{
     height: 80px;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .my-name{
     text-decoration: none;
     font-size: 40px;
     color: white;
-    margin-right: 250px;
+    margin: 0 auto;
 }
 
 .pestaña{
@@ -39,6 +50,7 @@ body{
     margin-right: 35px;
     font-size: 40px;
     color: white;
+
 }
 
 .curriculum-vitae{
@@ -59,20 +71,18 @@ body{
     margin-top: 150px;
 }
 
-.flex-container div p{
-    margin-left: 25px;
+.flex-container p{
     font-size: 20px;
     font-family: 'Nunito', sans-serif;
-}
-
-.photo{
-    margin: 0px 15px 0px 15px;
-
-}
-
-.text{
-    width: 500px;
+    width: 30%;
+    margin: auto;
     text-align: justify;
+}
+
+.flex-container img{
+    height: 30%;
+    width: 30%;
+    margin: 0px 15px 0px 15px;
 }
 
 .social-media{
@@ -156,3 +166,23 @@ body{
 
 
 /*Estilos compartidos en ambas pestañas*/
+
+@media screen and (max-width: 800px){
+    .header{
+        width: 100%;
+    }
+
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-container p{
+
+        width: 100%;
+    }
+    
+    body{
+        background: red;
+    }
+}
