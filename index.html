@@ -10,31 +10,107 @@
     <body>
         <!-- Cabezera web, barra de navegacion-->
         <div class="container">
-            <header class="header">
+            <header>
                     <div class="container-nav">
-                        <h1 class="my-name">Lorenzo David Lezcano</h1>
-                        <div class="pestaña">
-                            <a class="about-me" href="index.html">About Me</a>
+                        <h1>Lorenzo David Lezcano</h1>
+                        <div>
+                            <a class="about-me" href="#about-me">About Me</a>
                         </div>
-                        <div class="pestaña">
-                            <a class="curriculum-vitae" href="cv.html">CV</a>
+                        <div>
+                            <a class="curriculum-vitae" href="#curriculum">CV</a>
+                        </div>
+                        <div>
+                            <a class="my-skills" href="#skills">Skills</a>
                         </div>
                     </div>
             </header>
     
             <!--Seccion del cuerpo de la web Sobre Mi-->
-                <div class="flex-container">
-                        <img src="lordlez.jpg" alt="Mi foto">
-                        <p>
-                            I like to describe myself as a person passionate about technology, maintaining a firm philosophy of never stopping learning.
-                            I really enjoy learning about development, innovation, and the future of technology. <br><br>                      
-                            I am passionate about putting what I learn into practice and sharing it with others, that's why I keep learning constantly,
-                            setting goals and objectives that I achieve with perseverance and dedication.
+            <a name="about-me"></a>
+            <div class="flex-container">
+                    <img src="lordlez.jpg" alt="Mi foto">
+                    <p>
+                         I like to describe myself as a person passionate about technology, maintaining a firm philosophy of never stopping learning.
+                         I really enjoy learning about development, innovation, and the future of technology. <br><br>                      
+                         I am passionate about putting what I learn into practice and sharing it with others, that's why I keep learning constantly,
+                         setting goals and objectives that I achieve with perseverance and dedication.
+                    </p>
+            </div>
+
+            <hr class="hr-section">
+
+            <!--Apartado curriculum-->
+            <a name="curriculum"></a>
+            <section class="section">
+                    <div class="box">
+                        <h2>Education</h2>
+                        <p class="text-cv">
+                                UNIVERSITARIO | Universidad Nacional de La Matanza (Present)<br>
+                        </p>
+                        <ul class="text-items">
+                            <li>Career: Computer Engineering</li>
+                        </ul>
+                        <p class="text-cv">
+                                SECUNDARIO | Colegio Privado Gregorio de Laferrere (Graduated)<br>
+                        </p>
+                        <ul class="text-items">
+                            <li>Title: Bachelor with Orientation in Economics and Administration</li>
+                        </ul><br>
+                    </div>
+
+                    <hr class="hr-section">
+
+                    <div class="box">
+                        <h2>Knowledge and Courses</h2>
+                        <p class="text-cv">
+                            PLATZI | Online school for professional training in technology<br>
+                        </p>
+                        <ul class="text-items">
+                            <li> Professional Git and Github Course </li>
+                            <li> JavaScript Fundamentals Course </li>
+                            <li> Basic JavaScript course </li>
+                            <li> HTML and CSS course </li>
+                            <li> Frontend Developer Course </li>
+                            <li> Database Fundamentals Course </li>
+                            <li> SQL and MySQL Course </li>
+                        </ul><br>
+                    </div>
+
+                        <hr class="hr-section">
+
+                    <div class="box">
+                        <h2>Languajes</h2>
+                        <p class="text-cv">Spanish (native)</p>
+                        <p class="text-cv">English (mid-level)</p>
+                    </div>
+                    
+                        <hr class="hr-section">
+
+                    <div class="box">
+                        <h2>Labor Objective</h2>
+                        <p class="text-cv">
+                            I am a student eager to learn,
+                            looking for the job opportunity that allows me to grow
+                            both personally and professionally, adapting to the
+                            challenges and continuous learning.
                         </p>
 
-                </div>
-                <!--Contenedor de las redes socuales / contacto-->
+                    </div>
+                    <hr class="hr-section">
+                    <!--Apartado de las habilidades-->
+                    <a name="skills"></a>
+                    <div class="skills">
+                        <h2>Skills</h2>
+                        <img src="html.png">
+                        <img src="css.png">
+                        <img src="js.png">
+                        <img src="mysql.png">
+                        <img src="git.png">
+                        <img src="ps.png">
+                    </div>
+            </section>
             
+            <!--Contenedor de las redes socuales / contacto-->
             <!--Parte final de la web con derechos y creador de la misma-->
             <footer class="footer"> 
                 <div>

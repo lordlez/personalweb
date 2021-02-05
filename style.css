@@ -1,17 +1,80 @@
+ /*Estilos para la pestaña index*/
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+
+.flex-container p{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    width: 30%;
+    margin: auto;
+    text-align: justify;
+}
+
+.flex-container img{
+    height: 450px;
+    width: 450px;
+    margin: 0px 15px 40px 80px;
+}
+
+/*Estilos para la pestaña cv*/
+.section{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.education{
+    justify-content: center;
+}
+
+.section h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.text-cv{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 130px;
+    width: 700px;
+    text-align: justify; 
+    font-size: 20px;
+}
+
+.text-items{
+    margin-left: 180px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section{
+    margin-top: 60px;
+}
+
+.hr-section{
+    height: 2px;
+    background-image: -webkit-linear-gradient(left,transparent,#36bed9,transparent);
+    border: 0;
+}
+
+.box{
+    margin: 0 auto;
+    width: 600px;
+}
+
+.skills img{
+    margin-left: 90px;
+}
+
+/*Estilos compartidos en ambas pestañas*/
 body{
     background-color: #F5F5F5;
     margin: auto;
 }
 
- /*Estilos para la pestaña index*/
 .container{
-    width: 80%;
     max-width: 100%;
-    margin: 0 auto;
-}
-
-.section{
-    width: 100%;
     margin: 0 auto;
 }
 
@@ -22,16 +85,17 @@ body{
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin: auto;
 }
 
-.my-name{
+.container-nav h1{
     text-decoration: none;
     font-size: 40px;
     color: white;
     margin: 0 auto;
 }
 
-.pestaña{
+.container-nav div{
     border: solid white;
     margin-left: 5px;
     margin-right: 5px;
@@ -40,7 +104,7 @@ body{
     transition-duration: 650ms; 
 }
 
-.pestaña:hover{
+.container-nav div:hover{
     background: black;
 }
 
@@ -61,28 +125,12 @@ body{
     color: white;
 }
 
-.section{
-    margin-top: 60px;
-}
-
-.flex-container{
-    display: flex;
-    flex-direction: row;
-    margin-top: 150px;
-}
-
-.flex-container p{
-    font-size: 20px;
-    font-family: 'Nunito', sans-serif;
-    width: 30%;
-    margin: auto;
-    text-align: justify;
-}
-
-.flex-container img{
-    height: 30%;
-    width: 30%;
-    margin: 0px 15px 0px 15px;
+.my-skills{
+    text-decoration: none;
+    margin-right: 35px;
+    margin-left: 35px;
+    font-size: 40px;
+    color: white;
 }
 
 .footer{
@@ -118,61 +166,30 @@ body{
 
 
 
-/*Estilos para la pestaña cv*/
-
-.flex-cv{
-    display: flex;
-    flex-direction: row;
-
-}
-
-
-.title{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 250px;
-}
-
-.text-cv{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 130px;
-    width: 700px;
-    text-align: justify; 
-}
-
-.text-items{
-    margin-left: 180px;
-}
-
-
-.skills{
-    margin: 0px 0px 0px 50px;
-
-}
-
-.skills h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-}
-
-.skills img{
-    margin: 0px 0px 50px 100px;
-}
-
-.hr-section{
-    height: 2px;
-    background-image: -webkit-linear-gradient(left,transparent,#36bed9,transparent);
-    border: 0;
-}
-
-
-
-/*Estilos compartidos en ambas pestañas*/
-
-
 /* Responsive design*/
 @media screen and (max-width: 800px){
-    .header{
+    .container header{
         width: 100%;
+    }
+
+    .container-nav{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .container-nav h1{
+        font-size: 25px;
+    }
+
+    .container-nav div{
+        width: 100px;
+        text-align: center;
+    }
+
+    .container-nav a{
+        text-align: center;
+        font-size: 20px;
     }
 
     .flex-container{
@@ -183,6 +200,10 @@ body{
     .flex-container p{
 
         width: 100%;
+    }
+
+    .flex-container img{
+        width: 100px;
     }
 
     .footer{
