@@ -1,10 +1,35 @@
 :root {
     --celestito: #36bed9;
+    --gris: #565656;
 }
 
 body{
     background-color: #F5F5F5;
     margin: auto;
+}
+
+.header{
+    height: 350px;
+    background-image: url('fotobanner.jpg');
+    background-size: 700px 350px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    display: flex;
+    align-items: center;
+    background-color: var(--gris);
+}
+
+.header h1{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+    margin: 0px 0px 0px 40px ;
+}
+
+.header h1 span{
+    color:#026fff;
 }
 
 .wrapper{
@@ -15,25 +40,18 @@ body{
 .container-nav{
     display: flex;
     background-color: var(--celestito);
-    height: 80px;
+    height: 50px;
     align-items: center;
     justify-content: center;
     width: 100%;
     margin: auto;
+    box-shadow: 0px 2px 5px #999;
 }
 
-.container-nav h1{
-    text-decoration: none;
-    font-size: 40px;
-    color: white;
-    margin: 0 auto;
-}
 
 .container-nav div{
-    border: solid white;
     margin-left: 5px;
     margin-right: 5px;
-    border-radius: 50px;
     transition-property: background;
     transition-duration: 650ms; 
 }
@@ -46,118 +64,170 @@ body{
     text-decoration: none;
     margin-left: 35px;
     margin-right: 35px;
-    font-size: 40px;
+    font-size: 37px;
     color: white;
-
+    font-family: 'Nunito', sans-serif;
 }
 
-.curriculum-vitae{
+.portfolio{
     text-decoration: none;
     margin-right: 35px;
     margin-left: 35px;
-    font-size: 40px;
+    font-size: 37px;
     color: white;
+    font-family: 'Nunito', sans-serif;
 }
 
 .my-skills{
     text-decoration: none;
     margin-right: 35px;
     margin-left: 35px;
-    font-size: 40px;
+    font-size: 37px;
     color: white;
+    font-family: 'Nunito', sans-serif;
 }
 
 .flex-container{
     display: flex;
     flex-direction: row;
-    margin-top: 90px;
     justify-content: space-between;
+    margin-top: 80px;
 }
 
 .flex-container p{
     font-size: 20px;
     font-family: 'Nunito', sans-serif;
     width: 30%;
-    margin: 0px 150px;
+    margin: auto;
     text-align: justify;
 }
 
 .flex-container img{
     border: solid var(--celestito);
-    height: 300px;
+    height: 350px;
     width: 350px;
-    margin: 0px 150px;
+    margin: auto;
     object-fit: cover;
     border-radius: 20px;
 }
 
-
-.curriculum{
-    width: 100%;
-    margin: 0 auto;
+.portfolio-title{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
 }
 
-.curriculum h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+.proyectos{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.proyectos h3{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.proyectos div{
+    margin-bottom: 70px;
+}
+
+.proyectos div a{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    background: var(--celestito);
+    font-family: 'Nunito', sans-serif;
+    box-shadow: 2px 2px 5px #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skills{
     text-align: center;
 }
 
-.education{
-    justify-content: center;
-}
 
 
-.text-cv{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 130px;
-    width: 700px;
-    text-align: justify; 
-    font-size: 20px;
-}
-
-.text-items{
-    margin-left: 180px;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.box{
-    margin: 0 auto;
-    width: 600px;
-}
-
-.box-title{
-    border: 1px solid var(--celestito);
-    border-radius: 40px;
-    width: 250px;
-    margin: auto;
-    height: 50;
-    margin-bottom: 10px;
+.skills-title h2{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
 }
 
 .skills img{
-    margin-left: 90px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 150px;
+    height: 150px;
 }
 
 .hr-section{
     height: 2px;
     background-image: -webkit-linear-gradient(left,transparent,#36bed9,transparent);
     border: 0;
-    margin: 30px 0px;
+    margin: 130px 0px;
+}
+
+.container-form{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    text-align: center;
+    width: 400px;
+    border-radius: 15px;
+    background: var(--celestito);
+}
+
+.form h2{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+.form input{
+    padding: 10px;
+    margin: 5px 0px;
+    outline: none; 
+
 }
 
 .social{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
+    background-color: var(--celestito);
+    margin-top: 100px;
+    
 }
 
 .social div{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: var(--celestito);
-    margin-top: 50px;
+    background-color: var(--celestiton);
+    margin: 0 auto;
 
 }
 
@@ -177,9 +247,7 @@ body{
     margin:  0px 10px 0px 10px;
 }
 
-.skills div img{
-    margin: auto;
-}
+
 
 .footer{
     text-align: center;
