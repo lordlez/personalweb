@@ -11,9 +11,9 @@ body{
 
 .header{
     height: 350px;
-    background-image: url('fotobanner.jpg');
-    background-size: 700px 350px;
-    background-repeat: no-repeat;
+    background-image: url('bannerPrincipal.jpg');
+    /*background-size: 700px 350px;
+    background-repeat: no-repeat;*/
     background-position-x: right;
     display: flex;
     align-items: center;
