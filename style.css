@@ -1,6 +1,7 @@
 :root {
     --celestito: #36bed9;
-    --gris: #565656;
+    --gris: #5E5B57;
+    --naranjita: #FF9200;
 }
 
 body{
@@ -30,6 +31,8 @@ body{
 
 .header h1 span{
     color:#026fff;
+    text-shadow: 1px 1px 1px black;
+
 }
 
 .wrapper{
@@ -143,24 +146,6 @@ body{
     font-family: 'Nunito', sans-serif;
     box-shadow: 2px 2px 5px #999;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
