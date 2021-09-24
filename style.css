@@ -6,7 +6,7 @@
 
 body{
     background-color: #F5F5F5;
-    margin: auto;
+    margin: 0px 150px 0px 150px;
 }
 
 .header{
@@ -72,14 +72,6 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 
-.portfolio{
-    text-decoration: none;
-    margin-right: 35px;
-    margin-left: 35px;
-    font-size: 37px;
-    color: white;
-    font-family: 'Nunito', sans-serif;
-}
 
 .my-skills{
     text-decoration: none;
@@ -114,12 +106,19 @@ body{
     border-radius: 20px;
 }
 
+.portfolio{
+    text-decoration: none;
+    margin-right: 35px;
+    margin-left: 35px;
+    font-size: 37px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
 .portfolio-title{
     text-align: center;
     font-family: 'Nunito', sans-serif;
 }
-
-
 
 .proyectos{
     display: flex;
@@ -135,6 +134,11 @@ body{
 
 .proyectos div{
     margin-bottom: 70px;
+}
+
+.proyectos div figure img{
+    width: 500px;
+    height: 500px;
 }
 
 .proyectos div a{
@@ -174,30 +178,6 @@ body{
     margin: 130px 0px;
 }
 
-.container-form{
-    display: flex;
-    justify-content: center;
-}
-
-.form{
-    text-align: center;
-    width: 400px;
-    border-radius: 15px;
-    background: var(--celestito);
-}
-
-.form h2{
-    font-family: 'Nunito', sans-serif;
-    color: white;
-}
-
-.form input{
-    padding: 10px;
-    margin: 5px 0px;
-    outline: none; 
-
-}
-
 .social{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -231,8 +211,6 @@ body{
 .social div a{
     margin:  0px 10px 0px 10px;
 }
-
-
 
 .footer{
     text-align: center;
