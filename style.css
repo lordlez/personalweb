@@ -10,7 +10,7 @@ body{
 }
 
 .header{
-    height: 350px;
+    height: 200px;
     background-image: url('bannerPrincipal.jpg');
     /*background-size: 700px 350px;
     background-repeat: no-repeat;*/
