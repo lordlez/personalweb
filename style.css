@@ -10,7 +10,7 @@ body{
 }
 
 .header{
-    height: 200px;
+    height: 150px;
     background-image: url('bannerPrincipal.jpg');
     /*background-size: 700px 350px;
     background-repeat: no-repeat;*/
@@ -25,12 +25,12 @@ body{
     font-size: 40px;
     color: white;
     margin: 0 auto;
-    font-family: 'Nunito', sans-serif;
+    font-family: font-family: 'Anton', sans-serif;
     margin: 0px 0px 0px 40px ;
 }
 
 .header h1 span{
-    color:#026fff;
+    color:#ffbb00e1;
     text-shadow: 1px 1px 1px black;
 
 }
