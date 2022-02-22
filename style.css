@@ -12,27 +12,23 @@ body{
 .header{
     height: 150px;
     background-image: url('bannerPrincipal.jpg');
-    /*background-size: 700px 350px;
-    background-repeat: no-repeat;*/
     background-position-x: right;
     display: flex;
     align-items: center;
-    background-color: var(--gris);
+    justify-content: center;
 }
 
 .header h1{
-    text-decoration: none;
     font-size: 40px;
     color: white;
     margin: 0 auto;
-    font-family: font-family: 'Anton', sans-serif;
-    margin: 0px 0px 0px 40px ;
+    font-family: 'Anton', sans-serif;
 }
 
-.header h1 span{
-    color:#ffbb00e1;
-    text-shadow: 1px 1px 1px black;
 
+.header h1 span{
+    color: var(--celestito);
+    text-shadow: 1px 1px 1px black;
 }
 
 .wrapper{
@@ -154,12 +150,17 @@ body{
 
 
 .skills{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 100px;
     text-align: center;
+    margin-top: 100px;
 }
 
 
 
-.skills-title h2{
+.skills-title h3{
     text-align: center;
     font-family: 'Nunito', sans-serif;
 }
@@ -175,7 +176,7 @@ body{
     height: 2px;
     background-image: -webkit-linear-gradient(left,transparent,#36bed9,transparent);
     border: 0;
-    margin: 130px 0px;
+    margin: 20px 0px;
 }
 
 .social{
