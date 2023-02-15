@@ -38,7 +38,7 @@ body{
 }
 
 .container-nav div:hover{
-    background: black;
+    background: #2b2e31;
 }
 
 .about-me{
@@ -81,14 +81,15 @@ body{
 }
 
 .title{
+    text-align: center;
     font-size: 3rem;
-    color: white;
-    font-family: 'Anton', sans-serif;
+    color: #e9e8e6;
+    font-family: 'Nunito', sans-serif;
 }
 
 
 .title span{
-    color: var(--celestito);
+    color: #94c63f;
 }
 
 .button-title{
@@ -101,7 +102,7 @@ body{
 
 .button-title:hover{
     background-color: #2b2e31;
-    color: white;
+    color: #e9e8e6;
 }
 
 
@@ -111,9 +112,14 @@ body{
 .flex-container{
     display: flex;
     align-items: center;
-    justify-content: center;
-        background-color: #7B7B7B;
+    justify-content: space-around;
+    background-color: #7B7B7B;
     height: 100vh;
+}
+
+.flex-container div p{
+    background-color: #e9e8e6;
+    border-radius: 1rem;
 }
 
 .flex-container p{
@@ -126,10 +132,9 @@ body{
 
 .flex-container img{
     border: solid #3F472B;
-    height: 350px;
-    width: 350px;
-    object-fit: cover;
-    border-radius: 20px;
+    height: 25rem;
+    width: 25rem;
+    border-radius: 20rem;
 }
 
 
@@ -137,7 +142,7 @@ body{
 
 .container-skills{
     background-color: #4D4E4B;
-    height: 100vh;
+    height: 95vh;
 }
 
 .skills{
@@ -222,5 +227,72 @@ body{
     text-align: center;
     font-family: 'Nunito', sans-serif;
 }
+
+
+/*Section contact web*/
+
+.main-contact{
+    height: 89vh;
+    background-color: #7B7B7B;
+}
+
+.contact-title{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Nunito', sans-serif;
+    color: #94c63f;
+}
+
+.contact-title h2{
+    margin: 0 auto;
+}
+
+
+.contact{
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.contact div i{
+    font-size: 5rem;
+    transition-property: color;
+    transition-duration: 650ms;
+}
+
+.contact div i:hover{
+    color: #94c63f;
+}
+
+
+.contact div a:visited{
+    color: #2b2e31;
+}
+
+
+.contact-cv{
+    text-align: center;
+}
+
+.contact-cv a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+    padding: 2rem;
+    transition-duration: 650ms;
+    background-color: #e9e8e6;
+    border-radius: 1rem;
+    color: #2b2e31;
+}
+
+
+.contact-cv a:hover{
+    background-color: #94c63f;
+}
+
+
+
 
 /* Responsive design*/

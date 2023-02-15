@@ -1,134 +1,116 @@
 <!DOCTYPE html>
 <html lang="es">
 
-    <head>
-        <meta charset="utf-8">
-        <link type="text/css" rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Be+Vietnam+Pro:wght@100&family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">    
-        <script type="text/javascript" src="code.js"></script>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Be+Vietnam+Pro:wght@100&family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="code.js"></script>
+    <script src="https://kit.fontawesome.com/42d8cbc12e.js" crossorigin="anonymous"></script>
+</head>
 
-    <body>
-        <!-- Cabezera web, barra de navegacion-->
-        <div class="wrapper">
-            <section>
-                <header class="header">
-                    <h1>Soy <span>Lorenzo David Lezcano</span>, bienvenidos a mi web personal</h1>
-                </header>
-                <nav>
-                    <div class="container-nav">
-                        <div>
-                            <a class="about-me" href="index.html">Sobre Mí</a>
-                        </div>
-                        <div>
-                            <a class="portfolio" href="portafolio.html">Portafolio</a>
-                        </div>
-                        <div>
-                            <a class="my-skills" href="habilidades.html">Habilidades</a>
-                        </div>
-                    </div>
-                </nav>
-            </section>
-        </div>
-    
-        <!--Apartado de portafolio-->
-        <div class="wrapper">
+<body>
+    <!-- Cabezera web, barra de navegacion-->
+    <header>
+        <nav class="container-nav">
+            <div>
+                <a class="about-me" href="index.html">Home</a>
+            </div>
+            <div>
+                <a class="portfolio" href="proyectos.html">Proyectos</a>
+            </div>
+            <div>
+                <a class="my-skills" href="contacto.html">Contacto</a>
+            </div>
+        </nav>
+    </header>
 
-            <section class="container-portfolio">
-                <div class="portfolio-title">
-                    <h3>Proyectos creados con HTML, CSS y JavaScript</h3>
-                </div>
-                <article class="proyectos">
+    <!--Apartado de portafolio-->
+    <div class="wrapper">
 
-                    <div>
-                        <h3>Social Media Challenge</h3>
-                        <figure>
-                            <img src="images/socialChallenge.PNG" alt="SocialMedia Challenge">                            
-                        </figure>
-                        <a href="https://github.com/lordlez/socialScore" target="_blank">Ver Proyecto</a>
-                    </div>
+        <section class="container-portfolio">
+            <div class="portfolio-title">
+                <h3>Proyectos creados con HTML, CSS y JavaScript</h3>
+            </div>
+            <article class="proyectos">
 
-                    <div>
-                        <h3>Pokédex Project</h3>
-                        <figure>
-                            <img src="images/pokedex.PNG" alt="Imagen Pokédex Project">                            
-                        </figure>
-                        <a href="https://lordlez.github.io/pokedexProject/" target="_blank">Ver Proyecto</a>
-                    </div>
-
-                    <div>
-                        <h3>Web Freelancer</h3>
-                        <figure>
-                            <img src="images/freelancer.PNG" alt="Imagen Web Freelancer">                            
-                        </figure>
-                        <a href="https://lordlez.github.io/WebFreelancer/">Ver Proyecto</a>
-                    </div>
-
-                    <div>
-                        <h3>Frontend Store</h3>
-                        <figure>
-                            <img src="images/frontendstore.PNG" alt="Imagen Frontend Store">                            
-                        </figure>
-                        <a href="https://lordlez.github.io/frontendstore/">Ver Proyecto</a>
-                    </div>
-
-                </article>
-
-                <div class="wrapper">
-                    <hr class="hr-section">
-                </div>
-
-                <div class="portfolio-title">
-                    <h3>Proyectos creados con Python</h3>
-                </div>
-
-                <article class="proyectos">
-
-                    <div>
-                        <h3>Juego: La Vivorita</h3>
-                        <figure>
-                            <img src="images/snakegame.PNG" alt="Imagen Juego La Vivorita">                            
-                        </figure>
-                        <a href="https://github.com/lordlez/snakeGameInPython" target="_blank">Ver Proyecto</a>
-                    </div>
-
-                    <div>
-                        <h3>Juego: Carreras de Tortugas</h3>
-                        <figure>
-                            <img src="images/turtleGame.PNG" alt="Imagen Juego de Tortugas">                            
-                        </figure>
-                        <a href="https://github.com/lordlez/TurtleGameInPython" target="_blank">Ver Proyecto</a>
-                    </div>
-
-                </article>
-
-            </section>
-        </div>
-
-         <!--Apartado de las redes socuales / contacto-->
-        <div class="wrapper">
-            <section class="social"> 
                 <div>
-                    <a href="https://www.linkedin.com/in/lorenzo-david-lezcano/"><img src="images/linkedin.png" alt="Linkedin"></a>
-                    <a href="https://github.com/lordlez"><img src="images/github.png" alt="GitHub"></a>
-                    <a href="https://twitter.com/lordlez_"><img src="images/twitter.png" alt="Twitter"></a>
-                    <a href="https://www.facebook.com/xbenjiprice/"><img src="images/facebook.png" alt="Facebook"></a>
+                    <h3>Social Media Challenge</h3>
+                    <figure>
+                        <img src="images/socialChallenge.PNG" alt="SocialMedia Challenge">
+                    </figure>
+                    <a href="https://github.com/lordlez/socialScore" target="_blank">Ver Proyecto</a>
                 </div>
-            </section>
-        </div>
 
-            <!--Pie de la pagina-->
-        <div class="wrapper">
-            <section>
-                <footer class="footer">
-                    <p>Designed by Lorenzo David Lezcano 2022 | Todos los izquierdos reservados (y derechos)</p>
-                </footer>
-            </section>
-        </div>
-    </body>
+                <div>
+                    <h3>Pokédex Project</h3>
+                    <figure>
+                        <img src="images/pokedex.PNG" alt="Imagen Pokédex Project">
+                    </figure>
+                    <a href="https://lordlez.github.io/pokedexProject/" target="_blank">Ver Proyecto</a>
+                </div>
+
+                <div>
+                    <h3>Web Freelancer</h3>
+                    <figure>
+                        <img src="images/freelancer.PNG" alt="Imagen Web Freelancer">
+                    </figure>
+                    <a href="https://lordlez.github.io/WebFreelancer/">Ver Proyecto</a>
+                </div>
+
+                <div>
+                    <h3>Frontend Store</h3>
+                    <figure>
+                        <img src="images/frontendstore.PNG" alt="Imagen Frontend Store">
+                    </figure>
+                    <a href="https://lordlez.github.io/frontendstore/">Ver Proyecto</a>
+                </div>
+
+            </article>
+
+            <div class="wrapper">
+                <hr class="hr-section">
+            </div>
+
+            <div class="portfolio-title">
+                <h3>Proyectos creados con Python</h3>
+            </div>
+
+            <article class="proyectos">
+
+                <div>
+                    <h3>Juego: La Vivorita</h3>
+                    <figure>
+                        <img src="images/snakegame.PNG" alt="Imagen Juego La Vivorita">
+                    </figure>
+                    <a href="https://github.com/lordlez/snakeGameInPython" target="_blank">Ver Proyecto</a>
+                </div>
+
+                <div>
+                    <h3>Juego: Carreras de Tortugas</h3>
+                    <figure>
+                        <img src="images/turtleGame.PNG" alt="Imagen Juego de Tortugas">
+                    </figure>
+                    <a href="https://github.com/lordlez/TurtleGameInPython" target="_blank">Ver Proyecto</a>
+                </div>
+
+            </article>
+
+        </section>
+    </div>
+
+    <!--Pie de la pagina-->
+    <section>
+        <footer class="footer">
+            <p>Designed by Lorenzo David Lezcano alias Lordlez | Todos los izquierdos reservados (y derechos) 2023</p>
+        </footer>
+    </section>
+</body>
 
 </html>
