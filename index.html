@@ -1,85 +1,112 @@
 <!DOCTYPE html>
 <html lang="es">
 
-    <head>
-        <meta charset="utf-8">
-        <link type="text/css" rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Be+Vietnam+Pro:wght@100&family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">    
-        <script type="text/javascript" src="code.js"></script>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Be+Vietnam+Pro:wght@100&family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="code.js"></script>
+</head>
 
-    <body>
-        <!-- Cabezera web, barra de navegacion-->
-        <div class="wrapper">
-            <section>
-                <header class="header">
-                    <h1>Soy <span>Lorenzo David Lezcano</span>, bienvenidos a mi web personal</h1>
-                </header>
-                <nav>
-                    <div class="container-nav">
-                        <div>
-                            <a class="about-me" href="index.html">Sobre Mí</a>
-                        </div>
-                        <div>
-                            <a class="portfolio" href="portafolio.html">Portafolio</a>
-                        </div>
-                        <div>
-                            <a class="my-skills" href="habilidades.html">Habilidades</a>
-                        </div>
-                    </div>
-                </nav>
-            </section>
+<body>
+    <!-- Cabezera web, barra de navegacion-->
+    <header>
+        <nav class="container-nav">
+            <div>
+                <a class="about-me" href="index.html">Home</a>
+            </div>
+            <div>
+                <a class="portfolio" href="proyectos.html">Proyectos</a>
+            </div>
+            <div>
+                <a class="my-skills" href="contacto.html">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-title">
+            <div>
+                <h1 class="title">
+                    ¡Hola Mundo! Me llamo <span>Lorenzo David Lezcano</span> y soy frontend developer
+                </h1>
+            </div>
+            <div>
+                <a href="#sobre-mi"><button class="button-title">Sobre Mí</button></a>
+            </div>
         </div>
-    
+
+
+
         <!--Seccion de la web Sobre Mi-->
-        <div class="wrapper">
-            <section>
-                <div class="flex-container">
-                        <img src="lordlez.jpg" alt="Mi foto">
-                        <p>
-                            Me considero una persona
-                            abierta a aprender cualquier
-                            tecnología, adaptándome a
-                            desafíos que ayuden a mi
-                            crecimiento profesional.
-                            Le doy importancia a lo que
-                            aprendo para dar lo mejor de
-                            mí y mejorar mis habilidades,
-                            sea en un equipo de trabajo o
-                            individualmente, de modo
-                            que superarme de forma
-                            profesional y personal sean
-                            mis metas diarias.
-                            
-                        </p>
-                </div>
-            </section>
-        </div>    
 
-         <!--Apartado de las redes socuales / contacto-->
-        <div class="wrapper">
-            <section class="social"> 
+            <div class="flex-container" id="sobre-mi">
                 <div>
-                    <a href="https://www.linkedin.com/in/lorenzo-david-lezcano/"><img src="linkedin.png" alt="Linkedin"></a>
-                    <a href="https://github.com/lordlez"><img src="github.png" alt="GitHub"></a>
-                    <a href="https://twitter.com/lordlez_"><img src="twitter.png" alt="Twitter"></a>
-                    <a href="https://www.facebook.com/xbenjiprice/"><img src="facebook.png" alt="Facebook"></a>
+                    <p>
+                        Me considero una persona
+                        abierta a aprender cualquier
+                        tecnología, adaptándome a
+                        desafíos que ayuden a mi
+                        crecimiento profesional.
+                        Le doy importancia a lo que
+                        aprendo para dar lo mejor de
+                        mí y mejorar mis habilidades,
+                        sea en un equipo de trabajo o
+                        individualmente.
+                    </p>
                 </div>
-            </section>
-        </div>
+                <div>
+                    <img src="images/lordlez.jpg" alt="Mi foto">
+                </div>
+            </div>
 
-            <!--Pie de la pagina-->
-        <div class="wrapper">
-            <section>
-                <footer class="footer">
-                    <p>Designed by Lorenzo David Lezcano 2022 | Todos los izquierdos reservados (y derechos)</p>
-                </footer>
-            </section>
-        </div>
-    </body>
+
+        <!--Apartado de las habilidades-->
+            <div class="container-skills">
+                <div class="skills-title">
+                    <h2>Mis habilidades técnicas</h3>
+                </div>
+                <div class="skills">
+                    <div class="skills-title">
+                        <img src="images/html.png" alt="Imagen HTML">
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="skills-title">
+                        <img src="images/css.png" alt="Imagen CSS">
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="skills-title">
+                        <img src="images/js.png" alt="Imagen JavaScript">
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skills-title">
+                        <img src="images/mysql.png" alt="Imagen MySql">
+                        <H3>MySQL</H3>
+                    </div>
+                    <div class="skills-title">
+                        <img src="images/git.png" alt="Imagen GIT">
+                        <h3>GIT</h3>
+                    </div>
+                    <div class="skills-title">
+                        <img src="images/python.png" alt="Imagen Python">
+                        <h3>Python</h3>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <!--Pie de la pagina-->
+    <section>
+        <footer class="footer">
+            <p>Designed by Lorenzo David Lezcano alias Lordlez | Todos los izquierdos reservados (y derechos) 2023</p>
+        </footer>
+    </section>
+</body>
 
 </html>
