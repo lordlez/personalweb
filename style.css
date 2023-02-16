@@ -36,7 +36,6 @@ body{
 }
 
 
-
 .nav-title{
     text-decoration: none;
     margin-left: 35px;
@@ -44,6 +43,30 @@ body{
     font-size: 37px;
     color: white;
     font-family: 'Nunito', sans-serif;
+    transition-property: color;
+    transition-duration: 650ms;
+    position: relative;
+}
+
+.nav-title:after{
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: #94c63f;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+}
+
+.nav-title:hover:after{
+    width: 100%;
+    right: 0;
+}
+
+.nav-title:hover{
+    color: #94c63f;
 }
 
 
@@ -154,9 +177,8 @@ body{
     height: 150px;
 }
 
+
 /*Section Web Projects*/
-
-
 .container-portfolio{
     background-color: #7B7B7B;
 }
@@ -235,6 +257,7 @@ body{
 }
 
 
+
 /*Section contact web*/
 
 .main-contact{
@@ -301,4 +324,4 @@ body{
 
 
 
-/* Responsive design*/
+/* Responsive design: TODO*/
