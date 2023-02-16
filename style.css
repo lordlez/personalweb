@@ -21,7 +21,7 @@ body{
 .container-nav{
     display: flex;
     background-color: #3F472B;
-    height: 50px;
+    height: 4rem;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -33,15 +33,11 @@ body{
 .container-nav div{
     margin-left: 5px;
     margin-right: 5px;
-    transition-property: background;
-    transition-duration: 650ms; 
 }
 
-.container-nav div:hover{
-    background: #2b2e31;
-}
 
-.about-me{
+
+.nav-title{
     text-decoration: none;
     margin-left: 35px;
     margin-right: 35px;
@@ -50,24 +46,6 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 
-
-.my-skills{
-    text-decoration: none;
-    margin-right: 35px;
-    margin-left: 35px;
-    font-size: 37px;
-    color: white;
-    font-family: 'Nunito', sans-serif;
-}
-
-.portfolio{
-    text-decoration: none;
-    margin-right: 35px;
-    margin-left: 35px;
-    font-size: 37px;
-    color: white;
-    font-family: 'Nunito', sans-serif;
-}
 
 /*Top Section Home*/
 
@@ -120,6 +98,7 @@ body{
 .flex-container div p{
     background-color: #e9e8e6;
     border-radius: 1rem;
+    border: solid #3F472B;
 }
 
 .flex-container p{
@@ -162,6 +141,7 @@ body{
     color: white;
 }
 
+
 .skills-title h3{
     color: white;
     font-family: 'Nunito', sans-serif;
@@ -174,13 +154,28 @@ body{
     height: 150px;
 }
 
-
 /*Section Web Projects*/
 
+
+.container-portfolio{
+    background-color: #7B7B7B;
+}
+
 .portfolio-title{
+    font-size: 2rem;
     text-align: center;
     font-family: 'Nunito', sans-serif;
 }
+
+.portfolio-title h2{
+    color: #e9e8e6;
+    margin: 0 auto;
+}
+
+.portfolio-title h2 span{
+    color: #94c63f;
+}
+
 
 .proyectos{
     display: flex;
@@ -195,7 +190,12 @@ body{
 }
 
 .proyectos div{
-    margin-bottom: 70px;
+    margin-bottom: 3rem;
+}
+
+.proyectos div h3{
+    color: white;
+    font-family: 'Nunito', sans-serif;
 }
 
 .proyectos div figure img{
@@ -206,11 +206,17 @@ body{
 .proyectos div a{
     text-decoration: none;
     color: white;
-    border-radius: 5px;
-    padding: 5px;
-    background: var(--celestito);
+    border-radius: 1rem;
+    padding: 1rem;
+    background: #94c63f;
     font-family: 'Nunito', sans-serif;
-    box-shadow: 2px 2px 5px #999;
+    box-shadow: 2px 2px 5px black;
+    transition-property: background;
+    transition-duration: 650ms;
+}
+
+.proyectos div a:hover{
+    background-color: #4D4E4B;
 }
 
 
