@@ -1,5 +1,5 @@
 :root {
-    --celestito: #36bed9;
+    --verde: #94c63f;
     --gris: #5E5B57;
     --naranjita: #FF9200;
 }
@@ -40,7 +40,7 @@ body{
     text-decoration: none;
     margin-left: 35px;
     margin-right: 35px;
-    font-size: 37px;
+    font-size: 2rem;
     color: white;
     font-family: 'Nunito', sans-serif;
     transition-property: color;
@@ -52,7 +52,7 @@ body{
     content: "";
     width: 0;
     height: 4px;
-    background-color: #94c63f;
+    background-color: var(--verde);
     position: absolute;
     bottom: 0;
     right: 50%;
@@ -66,7 +66,7 @@ body{
 }
 
 .nav-title:hover{
-    color: #94c63f;
+    color: var(--verde);
 }
 
 
@@ -90,7 +90,12 @@ body{
 
 
 .title span{
-    color: #94c63f;
+    color: var(--verde);
+}
+
+
+.container-title-bottoms{
+    display: flex;
 }
 
 .button-title{
@@ -107,10 +112,11 @@ body{
 }
 
 
+
 /*Middle section Home*/
 
 
-.flex-container{
+.container-info{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -118,13 +124,13 @@ body{
     height: 100vh;
 }
 
-.flex-container div p{
+.container-info div p{
     background-color: #e9e8e6;
     border-radius: 1rem;
     border: solid #3F472B;
 }
 
-.flex-container p{
+.container-info p{
     font-size: 2rem;
     width: 50rem;
     font-family: 'Nunito', sans-serif;
@@ -132,7 +138,7 @@ body{
     text-align: start;
 }
 
-.flex-container img{
+.container-info img{
     border: solid #3F472B;
     height: 25rem;
     width: 25rem;
@@ -195,15 +201,13 @@ body{
 }
 
 .portfolio-title h2 span{
-    color: #94c63f;
+    color: var(--verde);
 }
 
 
 .proyectos{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .proyectos h2{
@@ -213,6 +217,7 @@ body{
 
 .proyectos div{
     margin-bottom: 3rem;
+    text-align: center;
 }
 
 .proyectos div h3{
@@ -230,7 +235,7 @@ body{
     color: white;
     border-radius: 1rem;
     padding: 1rem;
-    background: #94c63f;
+    background: var(--verde);
     font-family: 'Nunito', sans-serif;
     box-shadow: 2px 2px 5px black;
     transition-property: background;
@@ -269,7 +274,7 @@ body{
     text-align: center;
     font-size: 3rem;
     font-family: 'Nunito', sans-serif;
-    color: #94c63f;
+    color: var(--verde);
 }
 
 .contact-title h2{
@@ -287,12 +292,13 @@ body{
 
 .contact div i{
     font-size: 5rem;
+    color: #2b2e31;
     transition-property: color;
     transition-duration: 650ms;
 }
 
 .contact div i:hover{
-    color: #94c63f;
+    color: var(--verde);
 }
 
 
@@ -318,10 +324,78 @@ body{
 
 
 .contact-cv a:hover{
-    background-color: #94c63f;
+    background-color: var(--verde);
 }
 
 
 
 
-/* Responsive design: TODO*/
+/* Responsive design*/
+
+@media (max-width:600px){
+
+    /*top section home*/
+    .container-nav{
+        flex-direction: column;
+        justify-content: left;
+        height: 9rem;
+    }
+
+    .container-title{
+        justify-content: left;
+        height: 50vh;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+
+    .container-title-bottoms{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /*Mid section home*/
+    .container-info{
+        height: 50vh;
+        flex-direction: column;
+    }
+
+    .container-info p{
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .container-info img{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    /*buttom section home*/
+    .container-skills{
+        height: 50vh;
+    }
+
+    .skills{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: unset;
+        margin-top: 50px;
+    }
+
+    .skills img{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .skills-title h2{
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+
+
