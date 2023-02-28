@@ -330,9 +330,14 @@ body{
 
 
 
-/* Responsive design*/
+/* Responsive design */
 
-@media (max-width:600px){
+@media (max-width: 600px){
+
+    /*------------------*/
+    /* home section */
+    /*------------------*/
+
 
     /*top section home*/
     .container-nav{
@@ -389,8 +394,51 @@ body{
     }
 
     .skills-title h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
+
+    /*------------------*/
+    /* project section */
+    /*------------------*/
+
+    .portfolio-title{
+        font-size: 1.5rem;
+    }
+
+    .proyectos{
+        grid-template-columns: 1fr;
+    }
+
+    .proyectos div figure img{
+        width: 300px;
+        height: 300px;
+    }
+
+    /*------------------*/
+    /* contact section */
+    /*------------------*/
+
+    .main-contact{
+        height: 60vh;
+    }
+
+    .contact-title{
+        font-size: 1.5rem;
+    }
+
+    .contact{
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .contact-cv a{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+
+
+
 }
 
 
