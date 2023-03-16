@@ -1,4 +1,4 @@
-# :rocket:	Portafolio
+# :rocket:	Web Personal
 Link directo al proyecto: [link](https://lordlez.github.io/personalweb/)
 
 
